@@ -1,70 +1,202 @@
-☕ Jonga Kopi Web
+# ☕ Jonga Kopi Web
 
-Selamat datang di repositori resmi Jonga Kopi Web! Proyek ini adalah platform berbasis web yang dirancang
-untuk menyajikan pengalaman digital yang menarik bagi pecinta kopi.
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Development-orange?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
+</p>
 
-🚀 Tentang Proyek
+<p align="center">
+  <strong>Platform Website Modern untuk Pemesanan dan Informasi Kedai Kopi Jonga Kopi</strong>
+</p>
 
-Jonga Kopi Web hadir untuk memberikan informasi seputar [ menu kopi, profil kedai,sistem pemesanan dll] dengan antarmuka yang modern, responsif, dan mudah digunakan.
+---
 
-#✨ Fitur Utama
+## 📖 Tentang Proyek
 
-Desain Responsif: Tampilan yang optimal di perangkat mobile maupun desktop.
+**Jonga Kopi Web** merupakan platform berbasis web yang dirancang untuk menghadirkan pengalaman digital terbaik bagi para pecinta kopi. Website ini memungkinkan pelanggan untuk melihat menu, mengetahui informasi kedai, mengecek harga, hingga melakukan pemesanan dengan mudah melalui antarmuka yang modern dan responsif.
 
-Antarmuka Modern: Menggunakan teknologi terkini untuk pengalaman pengguna yang mulus.
+Proyek ini dikembangkan dengan fokus pada:
 
-Informasi Lengkap: [kontak,daftar menu, daftar harga, atau lokasi dll].
+* ⚡ Performa yang cepat
+* 🎨 Desain modern dan menarik
+* 📱 Responsif di berbagai perangkat
+* ☕ Pengalaman pengguna yang nyaman
+* 🔒 Kode yang lebih aman dan terstruktur
 
-🛠️ Teknologi yang Digunakan
+---
 
-Proyek ini dibangun dengan teknologi berikut:
+## ✨ Fitur Utama
 
-HTML5 & CSS3 (dengan dukungan PostCSS)
+### ☕ Katalog Menu Kopi
 
-JavaScript (ES6+)
+Menampilkan berbagai pilihan menu kopi lengkap dengan deskripsi dan harga.
 
-TypeScript (untuk keamanan kode)
+### 🛒 Sistem Pemesanan Online
 
-📦 Cara Menjalankan Proyek
+Memudahkan pelanggan dalam melakukan pemesanan secara cepat dan praktis.
 
-Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
+### 📍 Informasi Kedai
 
-1.Clone repositori ini:
+Menampilkan profil usaha, alamat, jam operasional, dan informasi penting lainnya.
 
+### 💰 Daftar Harga
+
+Pelanggan dapat melihat harga produk secara transparan dan mudah.
+
+### 📱 Responsive Design
+
+Tampilan website optimal di desktop, tablet, maupun smartphone.
+
+### 🚀 User Experience Modern
+
+Navigasi yang sederhana dengan tampilan yang bersih dan profesional.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+| Teknologi       | Kegunaan                       |
+| --------------- | ------------------------------ |
+| HTML5           | Struktur Website               |
+| CSS3            | Styling dan Layout             |
+| PostCSS         | Optimasi CSS                   |
+| JavaScript ES6+ | Interaktivitas Website         |
+| TypeScript      | Keamanan dan Skalabilitas Kode |
+| Node.js         | Runtime Environment            |
+| NPM / PNPM      | Dependency Management          |
+
+---
+
+## 📂 Struktur Proyek
+
+```bash
+jonga_kopi_web/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   └── utils/
+│
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+## 🚀 Instalasi dan Menjalankan Proyek
+
+### 1️⃣ Clone Repository
+
+```bash
 git clone https://github.com/alwafaa123/jonga_kopi_web.git
+```
 
-2. **Masuk ke direktori proyek:** ```bash
- 
+### 2️⃣ Masuk ke Folder Proyek
+
+```bash
 cd jonga_kopi_web
+```
 
-3.Install dependencies (jika ada):
+### 3️⃣ Install Dependencies
 
+Menggunakan NPM:
+
+```bash
 npm install
+```
 
- atau
- 
+atau menggunakan PNPM:
+
+```bash
 pnpm install
+```
 
-4.**Jalankan aplikasi:**```bash
+### 4️⃣ Jalankan Development Server
 
-    npm run dev
+```bash
+npm run dev
+```
 
-🤝 Kontribusi
+atau
 
-saya sangat terbuka bagi siapa saja yang ingin berkontribusi! Jika Anda memiliki saran, perbaikan, atau ingin menambahkan fitur baru, silakan lakukan:
+```bash
+pnpm dev
+```
 
-Fork repositori ini.
+### 5️⃣ Buka di Browser
 
-Buat branch fitur Anda (git checkout -b fitur-baru).
+```bash
+http://localhost:5173
+```
 
-Commit perubahan Anda (git commit -m 'Menambahkan fitur XYZ').
+---
 
-Push ke branch tersebut (git push origin fitur-baru).
+## 🎯 Tujuan Pengembangan
 
-Buka sebuah Pull Request.
+Proyek ini dibuat untuk:
 
-📝 Lisensi
+* Meningkatkan digitalisasi usaha kopi lokal.
+* Mempermudah proses pemesanan pelanggan.
+* Menjadi media promosi yang modern.
+* Memberikan pengalaman pengguna yang lebih baik.
 
-Proyek ini dilisensikan di bawah MIT License.
+---
 
-Dibuat dengan ❤️ oleh Fattahul Halim Alwafaa
+## 🤝 Kontribusi
+
+Kontribusi sangat terbuka untuk siapa saja yang ingin membantu mengembangkan proyek ini.
+
+Langkah-langkah kontribusi:
+
+1. Fork repository ini.
+2. Buat branch baru.
+
+```bash
+git checkout -b fitur-baru
+```
+
+3. Commit perubahan.
+
+```bash
+git commit -m "Menambahkan fitur baru"
+```
+
+4. Push ke repository Anda.
+
+```bash
+git push origin fitur-baru
+```
+
+5. Buat Pull Request.
+
+---
+
+## 🌟 Dukungan
+
+Jika proyek ini bermanfaat, jangan lupa untuk memberikan **Star ⭐** pada repository ini agar semakin banyak orang yang dapat menemukannya.
+
+---
+
+## 📝 License
+
+Project ini menggunakan lisensi **MIT License**.
+
+---
+
+## 👨‍💻 Developer
+
+**Fattahul Halim Alwafaa**
+
+📧 Contact: *Tambahkan Email Anda*
+🌐 GitHub: https://github.com/alwafaa123
+
+---
+
+<p align="center">
+  Dibuat dengan ❤️ dan secangkir ☕ untuk para pecinta kopi Indonesia.
+</p>
